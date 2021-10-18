@@ -20,7 +20,7 @@ const Translate: TTranslate = () => {
         params: {lang: ['ru'], text: 'Hello, how are you?'},
         headers: {
             'x-rapidapi-host': 'just-translated.p.rapidapi.com',
-            'x-rapidapi-key': 'b8c2b180d6msh457b7ce20234330p1ce362jsnda93d21ac368'
+            'x-rapidapi-key': '6cba1f64f0msh78f6039f6407483p1ee4fcjsna3b08467565a'
         }
     };
     const submitForm = (e:FormEvent, text: string, context: string): void => {
@@ -44,7 +44,6 @@ const Translate: TTranslate = () => {
     const [translatedText, setTranslatedText] = React.useState<string>('');
     const [context, setContext] = React.useState<string>('');
     const [engTranslate, setEngTranslate] = React.useState<string>('');
-    console.log('Translate');
 
     return (
         <div>

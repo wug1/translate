@@ -47,7 +47,6 @@ const Form: TForm = ({submitForm}) => {
     const handleText = (e: ChangeEvent<HTMLInputElement>) => {
         setDataForm({...dataForm, [e.target.name]: e.target.value});
     };
-    console.log('Form');
 
     return (
         <>

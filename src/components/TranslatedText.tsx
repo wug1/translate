@@ -53,7 +53,6 @@ const TranslatedText: TTranslatedText = (props) => {
         }
         fetchText();
     }, [sourceText, lang, translateText, getEngTranslate]);
-    console.log('TranslatedText');
 
     return (
         <Col>
